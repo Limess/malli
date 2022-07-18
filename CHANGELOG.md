@@ -21,6 +21,11 @@ Malli is in well matured [alpha](README.md#alpha).
 * Fix registry lookup in schema vector syntax, [#729](https://github.com/metosin/malli/pull/729), fixes [#451](https://github.com/metosin/malli/issues/451)
 * Set additionalProperties if map is closed [#719](https://github.com/metosin/malli/pull/719), fixes [#716](https://github.com/metosin/malli/issues/716)
 * Initial [Development Guide](README.md#development)
+* Better humanized results with sets
+* `::m/extra-key` error retains the error value
+* New `malli.error/error-value` utility for [compact error value presentation](README.md#values-in-error).
+* **BREAKING**: `me/-push` takes extra argument
+* **BREAKING**: `me/-assoc-in` is now called `me/-push-in`
 * Updated dependencies:
 
 ```clojure
